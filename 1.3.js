@@ -4,14 +4,14 @@ function getLength(arr){
     return arr.length
   }
   function getFirst(arr){
-    console.log(arr[0])
+    console.log(0)
     //return the first element of arr
     return arr[0]
   }
   function getLast(arr){
-    console.log(arr[2])
+    console.log(arr[arr.length-1])
     //return the last element of arr
-    return arr[2]
+    return arr[arr.length-1]
   }
   function pushElement(arr){
      var el=1
@@ -27,4 +27,3 @@ function getLength(arr){
     //pop an element from arr
 
     return arr
-  }
